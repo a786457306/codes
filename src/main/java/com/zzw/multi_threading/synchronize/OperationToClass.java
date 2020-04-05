@@ -16,6 +16,7 @@ public class OperationToClass {
     }
 
     public static void n() {
+        // T.class：Class类的对象。
         synchronized (OperationToClass.class) {
             count--;
             System.out.println(Thread.currentThread().getName() + " count = " + count);
