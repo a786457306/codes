@@ -31,7 +31,10 @@ public class BothRunning {
     public static void main(String[] args) {
         BothRunning bothRunning = new BothRunning();
 
-        new Thread(() -> bothRunning.m(), "bothRunning1").start();
-        new Thread(() -> bothRunning.n(), "bothRunning2").start();
+//        new Thread(() -> bothRunning.m(), "bothRunning1").start();
+//        new Thread(() -> bothRunning.n(), "bothRunning2").start();
+//        上下同义，new Thread(new runnable {@Override run(bothRunning.m())})
+        new Thread(bothRunning::m, "bothRunning1").start();
+        new Thread(bothRunning::n, "bothRunning2").start();
     }
 }

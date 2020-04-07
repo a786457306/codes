@@ -24,21 +24,27 @@ public class ReleaseLockAutomatically {
                 e.printStackTrace();
             }
             if (count == 5) {
-                // 此处抛出异常，锁被释放。若不想锁被释放，catch住异常，循环继续执行
+                // 此处抛出异常，锁被释放。
+                // 若不想锁被释放，catch住异常，循环继续执行
                 int i = 1/0; // throw exception
             }
         }
     }
 
+    /**
+     * 若不抛出异常，2永远不会执行
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         ReleaseLockAutomatically re = new ReleaseLockAutomatically();
-        Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                re.m();
-            }
-        };
-        new Thread(runnable, "runnable1").start();
-        new Thread(runnable, "runnable2").start();
+
+        new Thread(re::m, "runnable1").start();
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        new Thread(re::m, "runnable2").start();
     }
 }

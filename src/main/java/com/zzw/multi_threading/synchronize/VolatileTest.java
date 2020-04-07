@@ -10,8 +10,9 @@ import java.util.concurrent.TimeUnit;
  */
 public class VolatileTest {
 
-    boolean running = true;
+    /* volatile */ boolean running = true;
 
+    // running为true，一直执行，若终止就改为false
     void m() {
         System.out.println("m start");
         while (running) {
@@ -33,8 +34,8 @@ public class VolatileTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
         test.running = false;
+
         new Thread(test::m, "test2").start();
         try {
             TimeUnit.SECONDS.sleep(1);

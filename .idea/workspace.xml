@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65c60495-6761-4de0-b7dc-4af825cb1fbc" name="Default Changelist" comment="Merge branch 'master' of https://github.com/a786457306/codes&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/zzw/algorithm/heapAndTree/MedianHolder.java&#10;#&#9;src/main/java/com/zzw/algorithm/sort/HeapSort.java&#10;#&#9;src/main/java/com/zzw/algorithm/sort/MergeSort.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/DirtyRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/SimulateDeadLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/CurrentThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/CurrentThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/DeadLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/JoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/JoinDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/PriorityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/PriorityDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/RunDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/RunDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/StartDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/StartDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/SynchronizedDemoWithTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/YieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/YieldDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/BothRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/BothRunning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReleaseLockAutomatically.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReleaseLockAutomatically.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/VolatileTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,7 +43,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="51" />
+          <entry key="java" value="69" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -56,22 +51,22 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="51" />
+          <entry key="JAVA" value="69" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="36" />
-          <entry key="java" value="2878" />
-          <entry key="txt" value="53" />
+          <entry key="dummy" value="72" />
+          <entry key="java" value="6065" />
+          <entry key="txt" value="80" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2878" />
-          <entry key="PLAIN_TEXT" value="89" />
+          <entry key="JAVA" value="6065" />
+          <entry key="PLAIN_TEXT" value="152" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -85,82 +80,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/algorithm/graph/BFS.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReleaseLockAutomatically.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/algorithm/heapAndTree/MedianHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/algorithm/sort/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/algorithm/sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/SynchronizedDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" column="87" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="87" />
+            <state relative-caret-position="754">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/VolatileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/SynchronizedDemoWithTimer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/YieldDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="140">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -222,8 +154,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/thread_learning/SynchronizedDemoWithTimer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/SynchronizedDemoWithTimer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/TestOutput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/AmountOfThreadCallSameObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/BothRunning.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/DirtyRead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/DeadLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/SimulateDeadLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReentrantLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReleaseLockAutomatically.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/VolatileTest.java" />
       </list>
     </option>
   </component>
@@ -247,7 +188,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -324,7 +265,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586055640770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586255896280" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../litespring/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -355,13 +296,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassReflecation">
-    <configuration name="ClassReflecation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzw.java.reflecation.ClassReflecation" />
+  <component name="RunManager" selected="Application.ReleaseLockAutomatically">
+    <configuration name="AmountOfThreadCallSameObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.multi_threading.synchronize.AmountOfThreadCallSameObject" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzw.java.reflecation.*" />
+          <option name="PATTERN" value="com.zzw.multi_threading.synchronize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +310,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaThreadAnywhere" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzw.learning.multiThreading.creation.JavaThreadAnywhere" />
+    <configuration name="BothRunning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.multi_threading.synchronize.BothRunning" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzw.learning.multiThreading.creation.*" />
+          <option name="PATTERN" value="com.zzw.multi_threading.synchronize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,12 +323,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzw.learning.multiThreading.creation.Test" />
+    <configuration name="ReentrantLockParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.multi_threading.synchronize.ReentrantLockParent" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzw.learning.multiThreading.creation.*" />
+          <option name="PATTERN" value="com.zzw.multi_threading.synchronize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReleaseLockAutomatically" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.multi_threading.synchronize.ReleaseLockAutomatically" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.multi_threading.synchronize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimulateDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.multi_threading.synchronize.SimulateDeadLock" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.multi_threading.synchronize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,15 +363,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JavaThreadAnywhere" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.ClassReflecation" />
+      <item itemvalue="Application.AmountOfThreadCallSameObject" />
+      <item itemvalue="Application.BothRunning" />
+      <item itemvalue="Application.ReleaseLockAutomatically" />
+      <item itemvalue="Application.SimulateDeadLock" />
+      <item itemvalue="Application.ReentrantLockParent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassReflecation" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.JavaThreadAnywhere" />
+        <item itemvalue="Application.ReleaseLockAutomatically" />
+        <item itemvalue="Application.ReentrantLockParent" />
+        <item itemvalue="Application.SimulateDeadLock" />
+        <item itemvalue="Application.BothRunning" />
+        <item itemvalue="Application.AmountOfThreadCallSameObject" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +405,7 @@
       <workItem from="1574823062445" duration="1850000" />
       <workItem from="1574838854856" duration="3161000" />
       <workItem from="1576639718080" duration="1325000" />
-      <workItem from="1586050060233" duration="3418000" />
+      <workItem from="1586050060233" duration="19608000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构">
       <created>1571050453304</created>
@@ -464,14 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574858995847</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="learning multi_threading">
+      <created>1586077429526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586077429526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42336000" />
+    <option name="totallyTimeSpent" value="58526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24082074" />
@@ -483,8 +461,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282887" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19441211" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23050058" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30849826" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1420256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -516,48 +494,10 @@
     <MESSAGE value="反射" />
     <MESSAGE value="Merge branch 'master' of https://github.com/a786457306/codes" />
     <MESSAGE value="Merge branch 'master' of https://github.com/a786457306/codes&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/zzw/algorithm/heapAndTree/MedianHolder.java&#10;#&#9;src/main/java/com/zzw/algorithm/sort/HeapSort.java&#10;#&#9;src/main/java/com/zzw/algorithm/sort/MergeSort.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/a786457306/codes&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/zzw/algorithm/heapAndTree/MedianHolder.java&#10;#&#9;src/main/java/com/zzw/algorithm/sort/HeapSort.java&#10;#&#9;src/main/java/com/zzw/algorithm/sort/MergeSort.java" />
+    <MESSAGE value="learning multi_threading" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning multi_threading" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/algorithm/SoHu/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/socket/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/RunDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/StartDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/creation/Welcome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/creation/WelcomeRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/creation/ThreadCreationCmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -761,17 +701,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToObject.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="87" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="87" />
+        <state relative-caret-position="172">
+          <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="284">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/OperationToObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/DirtyRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/BothRunning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/SimulateDeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/AmountOfThreadCallSameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/ReleaseLockAutomatically.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/multi_threading/synchronize/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
