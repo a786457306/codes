@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 使用synchronized给程序加锁，当程序出现异常时，锁自动释放
+ * 不想释放就加try catch
+ * catch住异常后可以做事务回滚
  *
  * r1释放锁，r2获取锁，继续执行
  *
