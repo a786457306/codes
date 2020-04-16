@@ -1,12 +1,12 @@
-package com.zzw.multi_threading;
+package com.zzw.multi_threading.basic_method;
 
 /**
- * CurrentThreadDemo
+ * CurrentThread
  *
  * @author Daydreamer
  * @date 2018/3/14 19:25
  */
-public class CurrentThreadDemo {
+public class CurrentThread {
     public static void main(String[] args) {
         Thread t = new Runner();
         t.start();

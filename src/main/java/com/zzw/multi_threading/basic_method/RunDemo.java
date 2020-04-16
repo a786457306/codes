@@ -1,4 +1,4 @@
-package com.zzw.multi_threading;
+package com.zzw.multi_threading.basic_method;
 
 import java.util.Date;
 
