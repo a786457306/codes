@@ -64,4 +64,47 @@ public class ReplaceSpace {
         }
         return str.toString();
     }
+
+
+    /**
+     * 第三种解法：
+     * 不使用额外数据结构，单纯移动字符
+     * 从后往前移动，这样移动元素的次数更少
+     * 1. 找空格个数，计算替换后的字符串长度
+     * 2. 从后往前替换空格
+     * 3. 使用两个指针来表示位置，当两个指针相遇的时候，代表替换完毕
+     *
+     * @param str
+     * @return
+     */
+    public static String replaceSpaceMovingElementWithPointer(StringBuffer str) {
+        if (str == null) {
+            return "";
+        }
+        // 统计空格个数，计算长度
+        int spaceNum = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ' ') {
+                spaceNum ++;
+            }
+        }
+        int newLength = str.length() + spaceNum * 2;
+        int oldIndex = str.length() - 1;
+        int newIndex = newLength - 1;
+        str.setLength(newLength);
+
+        while (oldIndex >= 0 && newIndex > oldIndex) {
+            if (str.charAt(oldIndex) == ' ') {
+                oldIndex--;
+                str.setCharAt(newIndex--, '0');
+                str.setCharAt(newIndex--, '2');
+                str.setCharAt(newIndex--, '%');
+            } else {
+                str.setCharAt(newIndex--, str.charAt(oldIndex--));
+            }
+        }
+
+        return str.toString();
+
+    }
 }
