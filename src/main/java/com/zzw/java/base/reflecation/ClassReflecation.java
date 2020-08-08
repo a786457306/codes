@@ -1,4 +1,4 @@
-package com.zzw.java.reflecation;
+package com.zzw.java.base.reflecation;
 
 import com.zzw.utils.ClassUtils;
 import com.zzw.utils.Person;

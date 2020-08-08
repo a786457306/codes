@@ -16,7 +16,7 @@ public class C0{
 
     //关键字
     private static String[] keyword = { "read", "write", "boolean", "byte", "char", "double", "false", "float", "int", "long",
-                    "enum ", "short ", "signed", "struct", "union", "unsigned", "void ", "goto",
+                    "enums ", "short ", "signed", "struct", "union", "unsigned", "void ", "goto",
                     "case", "switch", "default", "continue", "break", "for", "do ", "return ",
                     "out", "system", "main"
             };
